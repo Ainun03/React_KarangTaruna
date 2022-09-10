@@ -1,0 +1,15 @@
+span.carousel-control-next-icon {
+    visibility: hidden;
+}
+span.carousel-control-prev-icon{
+    visibility: hidden;
+}
+.carousel-caption {
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}

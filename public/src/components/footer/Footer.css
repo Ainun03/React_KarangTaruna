@@ -1,0 +1,18 @@
+.rounded{
+    min-height: 37px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+span.rounded.d-inline-flex.align-items-center.justify-content-center.badge.rounded-pill.text-dark.bg-primary{
+    background-color: #a2a8a2e8 !important ;
+}
+span.rounded.d-inline-flex.align-items-center.justify-content-center.badge.rounded-pill.text-dark.bg-primary:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    background-color: #e213d8 !important ;
+}

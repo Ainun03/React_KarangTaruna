@@ -1,0 +1,6 @@
+.drop1{
+    transition: all 5000ms cubic-bezier(.12,.66,.5,1); 
+}
+.nav1:hover{
+    transform: scale(1.2);
+}

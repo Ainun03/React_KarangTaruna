@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+.font{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+.cont{
+    perspective: 700;
+    display:flex;
+}
+.flip{ 
+    border-radius: 30px;
+    transform-style: preserve-3d;
+    width: 100%;   
+    height: 100%;
+    padding-bottom: 20rem;
+    transition:all 0.6s ease;   
+}
+.flip:hover{
+    /* transform: scale(1.1); */
+    transform: rotateX(180deg);
+    transition-duration: 1s;
+}
+
+.front, .back{
+    box-shadow: 5px 5px 5px 3px black;
+    position: absolute;
+    backface-visibility:hidden;
+
+}
+/* .front{
+    background: url(./image/avan.jpg), linear-gradient(to top, rgba(103,58,183,.6)0%, rgba(156,39,176,.6)50%) ;
+    background-size:cover;
+    color: white;
+} */
+.back{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    transform: rotateX(180deg);
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

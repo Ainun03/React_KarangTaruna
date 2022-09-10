@@ -1,0 +1,21 @@
+
+  .rounded-circle{
+    min-height: 100px;
+    background-color: #0d28a6;
+    /* margin: 5px 250px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  span.rounded-circle.p-4.d-inline-flex.align-items-center.justify-content-center.w-80.badge.rounded-pill.text-dark.bg-primary {
+    background-color: #d5d8d5 !important ;
+
+  }
+  span.rounded-circle.p-4.d-inline-flex.align-items-center.justify-content-center.w-80.badge.rounded-pill.text-dark.bg-primary:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    background-color: #e213d8 !important ;
+  }
